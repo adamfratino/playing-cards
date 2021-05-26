@@ -1,6 +1,7 @@
 {
   "name": "@adamfratino/playing-cards",
   "author": "Adam Fratino",
+  "homepage": "https://github.com/adamfratino/playing-cards",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",

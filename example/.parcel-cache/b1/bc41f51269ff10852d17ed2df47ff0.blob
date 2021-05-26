@@ -1,0 +1,524 @@
+var helpers = require("./node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  require('react-app-polyfill/ie11');
+  var _react = require('react');
+  var _reactDom = require('react-dom');
+  var _ = require('../.');
+  var _jsxFileName = "/Users/adam.fratino/htdocs/@adamfratino/playing-cards/example/index.tsx";
+  const App = () => {
+    return (
+      /*#__PURE__*/_react.createElement(_react.Fragment, null, /*#__PURE__*/_react.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_react.createElement(_.Card, {
+        value: "2",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "3",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "4",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "5",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "6",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "7",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "8",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "9",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "10",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "J",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "Q",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "K",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "A",
+        suit: "diamonds",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 9
+        }
+      })), /*#__PURE__*/_react.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_react.createElement(_.Card, {
+        value: "2",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "3",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "4",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "5",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "6",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "7",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "8",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "9",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "10",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "J",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "Q",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "K",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "A",
+        suit: "clubs",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 9
+        }
+      })), /*#__PURE__*/_react.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_react.createElement(_.Card, {
+        value: "2",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "3",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "4",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "5",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "6",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "7",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "8",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "9",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "10",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "J",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "Q",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "K",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "A",
+        suit: "hearts",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 9
+        }
+      })), /*#__PURE__*/_react.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_react.createElement(_.Card, {
+        value: "2",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "3",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "4",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "5",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "6",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "7",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "8",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "9",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "10",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "J",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "Q",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "K",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_react.createElement(_.Card, {
+        value: "A",
+        suit: "spades",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 9
+        }
+      })))
+    );
+  };
+  _reactDom.render(/*#__PURE__*/_react.createElement(App, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 17
+    }
+  }), document.getElementById('root'));
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
